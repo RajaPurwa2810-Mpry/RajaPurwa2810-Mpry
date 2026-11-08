@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="108" height="34" viewBox="0 0 108 34">
+  <title>MariaDB</title>
+  <rect x=".5" y=".5" width="107" height="33" rx="8" fill="#171b21" stroke="#434955"/>
+  <rect x="6" y="6" width="25" height="22" rx="5" fill="#e0bfa9" fill-opacity=".14"/>
+  <text x="18.5" y="21" text-anchor="middle" fill="#e0bfa9" font-family="Segoe UI, sans-serif" font-size="10" font-weight="700">DB</text>
+  <text x="38" y="22" fill="#f2f4f7" font-family="Segoe UI, sans-serif" font-size="14" font-weight="600">MariaDB</text>
+</svg>
