@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 348" width="760" height="348" role="img" aria-labelledby="title description">
+  <title id="title">Peta proyek Raja Purwanto</title>
+  <desc id="description">Proyek web mencakup Absensi Pintar, FlacTopus AI, dan Cetrek Cetrek Lampu. Eksplorasi game mencakup Godot 2D RPG.</desc>
+  <style>
+    .label { font-family: Consolas, monospace; font-size: 14px; font-weight: 600; letter-spacing: 2px; }
+    .name { font-family: system-ui, sans-serif; font-size: 22px; font-weight: 700; }
+    .meta { font-family: system-ui, sans-serif; font-size: 15px; }
+    .wire { fill: none; stroke: #436653; stroke-width: 2; }
+    .signal { fill: none; stroke: #80e7ad; stroke-width: 2; stroke-linecap: round; }
+
+    @media (prefers-reduced-motion: no-preference) {
+      .signal {
+        stroke-dasharray: 1;
+        animation: trace 0.7s ease-out both;
+      }
+      .branch { animation-delay: 0.34s; }
+      .branch-lower { animation-delay: 0.62s; }
+    }
+
+    @keyframes trace {
+      from { stroke-dashoffset: 1; }
+      to { stroke-dashoffset: 0; }
+    }
+  </style>
+
+  <rect x="0.5" y="0.5" width="759" height="347" rx="21" fill="#101d17" stroke="#344b3e"/>
+  <text class="label" x="32" y="40" fill="#80e7ad">PETA PROYEK</text>
+  <text class="label" x="728" y="40" fill="#a8c3b3" text-anchor="end">WEB / GAME 2D</text>
+  <path d="M32 58H728" stroke="#344b3e"/>
+
+  <path class="wire" d="M380 124V268 M380 172H294 M380 172H466 M380 268H294 M380 268H466"/>
+  <path class="signal" pathLength="1" d="M380 124V268"/>
+  <path class="signal branch" pathLength="1" d="M380 172H294"/>
+  <path class="signal branch" pathLength="1" d="M380 172H466"/>
+  <path class="signal branch-lower" pathLength="1" d="M380 268H294"/>
+  <path class="signal branch-lower" pathLength="1" d="M380 268H466"/>
+  <circle cx="380" cy="172" r="3.5" fill="#80e7ad"/>
+  <circle cx="380" cy="268" r="3.5" fill="#80e7ad"/>
+
+  <rect x="280" y="78" width="200" height="46" rx="23" fill="#243d2e" stroke="#6dbb90"/>
+  <text class="name" x="380" y="108" fill="#f2fbf5" text-anchor="middle">Raja Purwanto</text>
+
+  <g transform="translate(32 135)">
+    <rect width="262" height="74" rx="12" fill="#1a2b22" stroke="#436653"/>
+    <circle cx="20" cy="24" r="3.5" fill="#80e7ad"/>
+    <text class="name" x="33" y="32" fill="#f2fbf5">Absensi Pintar</text>
+    <text class="meta" x="33" y="55" fill="#b5cebf">PHP · MariaDB · QR</text>
+  </g>
+  <g transform="translate(466 135)">
+    <rect width="262" height="74" rx="12" fill="#1a2b22" stroke="#436653"/>
+    <circle cx="20" cy="24" r="3.5" fill="#80e7ad"/>
+    <text class="name" x="33" y="32" fill="#f2fbf5">FlacTopus AI</text>
+    <text class="meta" x="33" y="55" fill="#b5cebf">Web edukasi · Proyek tim</text>
+  </g>
+  <g transform="translate(32 231)">
+    <rect width="262" height="74" rx="12" fill="#1a2b22" stroke="#436653"/>
+    <circle cx="20" cy="24" r="3.5" fill="#80e7ad"/>
+    <text class="name" x="33" y="32" fill="#f2fbf5">Cetrek Cetrek Lampu</text>
+    <text class="meta" x="33" y="55" fill="#b5cebf">JavaScript DOM · Latihan web</text>
+  </g>
+  <g transform="translate(466 231)">
+    <rect width="262" height="74" rx="12" fill="#1a2b22" stroke="#706042"/>
+    <circle cx="20" cy="24" r="3.5" fill="#f6ca82"/>
+    <text class="name" x="33" y="32" fill="#f2fbf5">Godot 2D RPG</text>
+    <text class="meta" x="33" y="55" fill="#b5cebf">Godot · GDScript</text>
+  </g>
+</svg>
